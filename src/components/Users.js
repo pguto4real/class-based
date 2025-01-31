@@ -23,12 +23,6 @@ export default class Users extends Component {
     });
   }
   render() {
-    // const [showUsers, setShowUsers] = useState(true);
-
-    // const toggleUsersHandler = () => {
-    //   setShowUsers((curState) => !curState);
-    // };
-
     const usersList = (
       <ul>
         {DUMMY_USERS.map((user) => (
@@ -47,22 +41,3 @@ export default class Users extends Component {
     );
   }
 }
-
-// const Users = () => {
-//   const [showUsers, setShowUsers] = useState(true);
-
-//   const toggleUsersHandler = () => {
-//     setShowUsers((curState) => !curState);
-//   };
-
-//   return (
-//     <div className={classes.users}>
-//       <button onClick={toggleUsersHandler}>
-//         {showUsers ? 'Hide' : 'Show'} Users
-//       </button>
-//       {showUsers && usersList}
-//     </div>
-//   );
-// };
-
-// export default Users;
