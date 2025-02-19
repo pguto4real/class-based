@@ -3,8 +3,6 @@ import User from "./User";
 
 import classes from "./Users.module.css";
 
-
-
 export default class Users extends Component {
   constructor() {
     super();
